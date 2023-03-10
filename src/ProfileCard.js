@@ -3,7 +3,7 @@ function ProfileCard({ title, handle, image }) {
     <div>
       <img src={image} alt="pda logo" />
       <div>Title is {title}</div>
-      <div>Handle{handle}</div>
+      <div>Handle is{handle}</div>
     </div>
   );
 }
